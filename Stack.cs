@@ -23,7 +23,7 @@ namespace stack{
     }
 
     public void Clear(){
-      _list.Clear()
+      _list.Clear();
     }
   }
 }
