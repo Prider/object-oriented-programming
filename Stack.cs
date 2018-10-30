@@ -2,7 +2,8 @@ using System;
 using System.Collections.Generic;
 
 namespace stack{
-  public class Stack{
+  public class Stack
+  {
     private List<Object> _list = new List<Object>();
     public void Push(Object obj){
       if(obj == null)
