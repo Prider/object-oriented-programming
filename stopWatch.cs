@@ -4,9 +4,9 @@ namespace stopWatch
 {
  public class StopWatch
  {
-   public DateTime _startTime;
-   public DateTime _endTime;
-   public bool _running = false;
+   private DateTime _startTime;
+   private DateTime _endTime;
+   private bool _running = false;
    public void Start()
    {
      if(_running){
